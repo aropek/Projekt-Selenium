@@ -1,10 +1,10 @@
-Rejestracja użytkownika na facebook.pl
+Rejestracja użytkownika na www.facebook.pl
 
 # Zainstalowanie menadżera pip
-  $ sudo apt install python3-pip
+  ```$ sudo apt install python3-pip```
 
 # Zainstalowanie Selenium
-  $ pip3 install Selenium
+  ```$ pip3 install Selenium```
 
 # Pobranie przeglądarki Chrome
   https://www.google.com/intl/pl_pl/chrome/
@@ -13,13 +13,14 @@ Rejestracja użytkownika na facebook.pl
   https://chromedriver.chromium.org/downloads
 
 # Przeniesienie plików do katalogu /usr/local/bin
-  $ mv geckodriver /usr/local/bin
+  ```$ mv geckodriver /usr/local/bin```
 
 # Rozpakowanie plików
-  $ unzip chromedirver_linux64.zip
+  ```$ unzip chromedirver_linux64.zip```
 
 # Przeniesienie plików do katalogu /usr/local/bin
-  $ mv chromedriver /usr/local/bin
+  ```$ mv chromedriver /usr/local/bin```
 
-# Uruchomienie testu
-  $ python3 test_facebook.py
+# Uruchomienie test
+```  $ python3 test_facebook.py```
+
